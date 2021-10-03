@@ -25,6 +25,7 @@ The last bit in a pixel is called the Least Significant bit as its value will af
 4.	Text Retrieving from image
 5.	AES Decryption
 6.	Text Decompression
+
 **Text Compression:**
 Huffman coding has been used for this purpose.
 Frequency of occurrence of all characters in input is calculated and placed in bottom of a tree.
@@ -86,6 +87,7 @@ Current node is set to root node. The data is traversed, if 0 occurs we go left 
 For example: If data is 1111101, we go right then right again then right again. It is a leaf so ‘a’ is printed and go back to root. Now go right, right, left, right. It is a leaf so ‘u’ is printed.
 
 **FLOWCHART**
+
  ![Flowchart](/Images/Flowchart1.png "Flowchart")
  ![Flowchart](/Images/Flowchart2.png "Flowchart")
  
