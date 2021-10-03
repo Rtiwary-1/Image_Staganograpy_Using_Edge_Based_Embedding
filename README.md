@@ -100,3 +100,7 @@ For example: If data is 1111101, we go right then right again then right again. 
  ![Encrypted Image](/Images/Encrypted_Image.png "Encrypted Image output")
  #### Decompressed Text
   ![Displays text](/Images/Output4.png "Displays decrypted text")
+  
+### Analysis
+Upon testing, it was observed that the compression text is about 55% of original size. As the text size increases, the compression is much better. In this test case, the data needed two edges while embedding, the behavior is as expected and it generates side orders correctly. Retrieving process also gets the side orders for both edge orders as expected.
+The change in encrypted image is not visible to the human eye. The decrypted and decompressed text is the same as the initial text.
