@@ -64,6 +64,7 @@ The final side would just be the remaining one and its mode would be defaulted t
 Now, we have the order of sides in which data has to be embedded and operation modes of all of them, so we can start embedding the input. No data has to be embedded in the corner pieces. The length of the input is found, converted to a 16 bit binary and then appended in the beginning.
 The first bit goes into starting pixel’s 1st channel of first side in the order, second into starting pixel’s 1st channel of second side in the order and so on. After 4 bits, we move to 2nd channel, then after another 4 we move to the 3rd channel. After that, we move to next pixel in that side according to operation mode.
 When all pixels in any side are filled, we move one edge inwards, now we have 4 new corners so we have to generate a new side order and operation modes and repeat the process. This continues until all bits are embedded.
+
  
 **Text Retrieving:**
 While embedding, we had stored the side order and modes in 3 corners.
