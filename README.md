@@ -34,6 +34,7 @@ From each node, the node to the left is marked 0 and right is marked 1
 Then each character’s code is path from root node to the character.
 
 ![Tree](/Images/BST.png "Tree")
+
 In this example, ‘i’ will be represented by 00, ‘o’ is 11001.
 
 **AES Encryption:**
@@ -48,6 +49,7 @@ The top side is side 0 and increments in clockwise direction. Each side also has
 Three corners starting from top left corner are marked as 0, 1 and 2.
 
 ![Image Matrix](/Images/Matrix.png "Image Matrix")
+
 3 unique integers are randomized between 0 and 3 to get 3 sides.
 3 integers between 0 and 1 are randomized to get mode for these 3 sides.
 Mode = 0 denotes that embedding has to be carried out from left to right indicator for that side.
@@ -79,6 +81,7 @@ The first 8 bits are converted to decimal to get the number of bits that were pa
 Current node is set to root node. The data is traversed, if 0 occurs we go left in the tree otherwise we go right in the tree. If a leaf node occurs we have obtained a character, then we go back to root node and continue.
 
 ![Tree](/Images/BST.png "Tree")
+
 For example: If data is 1111101, we go right then right again then right again. It is a leaf so ‘a’ is printed and go back to root. Now go right, right, left, right. It is a leaf so ‘u’ is printed.
 
 **FLOWCHART**
